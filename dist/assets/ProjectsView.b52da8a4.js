@@ -1,0 +1,1 @@
+import{_ as e}from"./Title.e19dcc9d.js";import{o as t,c as s,a as _}from"./index.b179e816.js";const o={class:"projects"},p={__name:"ProjectsView",setup(c){return(r,a)=>(t(),s("div",o,[_(e,{title:"/projects"})]))}};export{p as default};
