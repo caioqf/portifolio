@@ -1,6 +1,6 @@
 <template>
-  <div class="skills">
-    <label class="font-weight-bold">root@root:~/home/caioqf/skills$</label>
+  <div class="projects">
+    <label class="font-weight-bold">root@root:~/home/caioqf/projects$</label>
   </div>
 </template>
 
@@ -8,12 +8,12 @@
 </script>
 
 <style>
-.skills {
+.projects {
   align-items: baseline;
   margin: 1em;
 }
 
-.skills > label {
+.projects > label {
   color: rgb(127, 206, 17);
   font-size: 3vh;
   white-space: nowrap;

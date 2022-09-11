@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <label class="font-weight-bold">~$ About me: </label>
+    <label class="font-weight-bold">root@root:~/home/caioqf/about$</label>
     <p>
       >_ I'm a fullstack developer that loves to code and read about technology.
       <br />
@@ -29,7 +29,7 @@
       <br />
       <br />
       >_ To understand more about my skills go to the
-      <a href="/">Skills</a> page
+      <a href="/skills">Skills</a> page
     </p>
   </div>
 </template>
@@ -45,7 +45,11 @@
 
 .about > label {
   color: rgb(127, 206, 17);
-  font-size: 4vh;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 3vh;
+  animation: typing 1s steps(40, end), blink-caret 0.75s step-end infinite;
+  border-right: 0.5em solid white;
 }
 
 .about > p {
@@ -65,5 +69,24 @@ p > a:visited {
 
 p > a:hover {
   color: rgb(127, 206, 17);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  70% {
+    border-color: white;
+  }
 }
 </style>

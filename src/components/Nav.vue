@@ -1,14 +1,16 @@
 <template>
   <nav class="navigation">
     <div class="logo">
-      <img src="../assets/logo.png" />
+      <a href="/">
+        <img src="../assets/logo.png" />
+      </a>
     </div>
     <div class="nav-options">
       <div><RouterLink to="/">Home</RouterLink></div>
       <div><RouterLink to="/about">About</RouterLink></div>
-      <div>Skills</div>
-      <div>Projects</div>
-      <div>Contact</div>
+      <div><RouterLink to="/skills">Skills</RouterLink></div>
+      <div><RouterLink to="/projects">Projects</RouterLink></div>
+      <div><RouterLink to="/contact">Contact</RouterLink></div>
     </div>
   </nav>
 </template>
@@ -29,15 +31,19 @@
   text-decoration: underline;
 }
 
-.logo > img {
+.logo > a > img {
   width: 80%;
   margin: 2em;
   border: 1px solid white;
 }
 
-.logo > img:hover {
+.logo > a > img:hover {
   border: 1px solid rgb(127, 206, 17);
   cursor: pointer;
+}
+
+a {
+  color: white;
 }
 
 a:visited {
