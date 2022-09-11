@@ -1,1 +1,0 @@
-import{_ as e}from"./Title.e19dcc9d.js";import{o as s,c as _,a as t}from"./index.b179e816.js";const l={class:"skills"},r={__name:"SkillsView",setup(a){return(o,c)=>(s(),_("div",l,[t(e,{title:"/skills"})]))}};export{r as default};
