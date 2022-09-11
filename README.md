@@ -7,7 +7,7 @@
 
 # Rodando
 
-Para rodar o projeto, é preciso ter o Node 16.17 + npm instalados na máquina
+Para rodar o projeto, é preciso ter o **Node 16.17>** + **npm 8>** instalados na máquina
 
 - Clone o repositório
 
@@ -17,7 +17,7 @@ $ git clone git@github.com:caioqf/portifolio-vue3.git
 
 - Entre na pasta do repositório 
 ````
-$ cd c41x
+$ cd portifolio-vue3
 ````
 
 - Rode o seguinte comando: 
