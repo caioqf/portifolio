@@ -25,6 +25,10 @@
   margin: 0px;
 }
 
+.nav-options * {
+  font-size: 3vh;
+}
+
 .nav-options :hover {
   cursor: pointer;
   color: rgb(127, 206, 17);

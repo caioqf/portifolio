@@ -42,11 +42,6 @@ import Title from "../components/Title.vue";
   margin: 1em;
 }
 
-.contact > label {
-  color: rgb(127, 206, 17);
-  font-size: 3vh;
-}
-
 .contact > p {
   font-size: 2.5vh;
 }
@@ -58,6 +53,12 @@ import Title from "../components/Title.vue";
 .list > li {
   padding: 2vh;
 }
+
+ul > *,
+ul > li > * {
+  font-size: 3vh;
+}
+
 ul > li > a {
   text-decoration: underline;
   color: white;
