@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <p>
-      <Title title="about" />
+      <Title title="/about" />
       >_ I'm a fullstack developer that loves to code and read about technology.
       <br />
       <br />

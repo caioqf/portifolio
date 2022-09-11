@@ -1,6 +1,6 @@
 <template>
-  <div class="projects">
-    <Title title="/projects" />
+  <div class="homepage">
+    <Title />
   </div>
 </template>
 
@@ -9,13 +9,8 @@ import Title from "../components/Title.vue";
 </script>
 
 <style>
-.projects {
+.homepage {
   align-items: baseline;
   margin: 1em;
-}
-
-.projects > label {
-  color: rgb(127, 206, 17);
-  font-size: 3vh;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <label class="title font-weight-bold"
-    >root@root:~/home/caioqf/{{ props.title }}$</label
+    >root@root:~/home/caioqf{{ props.title }}$</label
   >
   <br />
 </template>

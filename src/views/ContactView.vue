@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <Title title="contact" />
+    <Title title="/contact" />
     <p>>_ These are the ways you can contact me:</p>
     <ul class="list">
       <li>

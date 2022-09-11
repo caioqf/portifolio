@@ -1,6 +1,6 @@
 <template>
   <div class="skills">
-    <Title title="skills" />
+    <Title title="/skills" />
   </div>
 </template>
 
