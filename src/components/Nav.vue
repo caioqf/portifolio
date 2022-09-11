@@ -1,7 +1,7 @@
 <template>
   <nav class="navigation">
     <div class="logo">
-      <a href="/">
+      <a href="/portifolio">
         <img src="../assets/logo.png" />
       </a>
     </div>

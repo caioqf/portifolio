@@ -12,12 +12,12 @@ Para rodar o projeto, é preciso ter o **Node 16.17>** + **npm 8>** instalados n
 - Clone o repositório
 
 ````
-$ git clone git@github.com:caioqf/portifolio-vue3.git
+$ git clone git@github.com:caioqf/portifolio.git
 ````
 
 - Entre na pasta do repositório 
 ````
-$ cd portifolio-vue3
+$ cd portifolio
 ````
 
 - Rode o seguinte comando: 
