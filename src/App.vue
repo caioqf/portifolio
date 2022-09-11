@@ -1,5 +1,6 @@
 <script setup>
 import Nav from "./components/Nav.vue";
+import About from "./components/About.vue";
 </script>
 
 <template>
@@ -7,20 +8,16 @@ import Nav from "./components/Nav.vue";
     <Nav />
   </header>
   <main>
-    <div class="content"></div>
+    <About />
   </main>
 </template>
 
 <style scoped>
 header {
-  width: 35%;
+  width: 40%;
 }
 main {
-  display: flex;
-  align-items: center;
-}
-
-.content {
+  width: 60%;
   margin: 5vh;
   width: 120vh;
   height: 90vh;
