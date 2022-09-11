@@ -1,0 +1,1 @@
+import{_ as e}from"./Title.e19dcc9d.js";import{o,c as a,a as s}from"./index.b179e816.js";const t={class:"homepage"},p={__name:"HomeView",setup(c){return(_,r)=>(o(),a("div",t,[s(e)]))}};export{p as default};
