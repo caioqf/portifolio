@@ -22,6 +22,6 @@ main {
   margin: 5vh;
   width: 120vh;
   height: 90vh;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 </style>

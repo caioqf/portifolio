@@ -1,10 +1,11 @@
 <template>
   <div class="skills">
-    <label class="font-weight-bold">root@root:~/home/caioqf/skills$</label>
+    <Title title="skills" />
   </div>
 </template>
 
-<script>
+<script setup>
+import Title from "../components/Title.vue";
 </script>
 
 <style>
@@ -16,10 +17,6 @@
 .skills > label {
   color: rgb(127, 206, 17);
   font-size: 3vh;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 1s steps(40, end), blink-caret 0.75s step-end infinite;
-  border-right: 0.5em solid white;
 }
 
 .skills > p {

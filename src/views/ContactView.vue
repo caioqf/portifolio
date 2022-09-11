@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <label class="font-weight-bold">root@root:~/home/caioqf/contact$</label>
+    <Title title="contact" />
     <p>>_ These are the ways you can contact me:</p>
     <ul class="list">
       <li>
@@ -32,7 +32,8 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import Title from "../components/Title.vue";
 </script>
 
 <style>
@@ -44,11 +45,6 @@
 .contact > label {
   color: rgb(127, 206, 17);
   font-size: 3vh;
-  font-size: 3vh;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 1s steps(40, end), blink-caret 0.75s step-end infinite;
-  border-right: 0.5em solid white;
 }
 
 .contact > p {
