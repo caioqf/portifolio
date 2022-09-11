@@ -1,6 +1,7 @@
 <script setup>
 import Nav from "./components/Nav.vue";
-import About from "./components/About.vue";
+import About from "./views/AboutView.vue";
+import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
@@ -8,7 +9,7 @@ import About from "./components/About.vue";
     <Nav />
   </header>
   <main>
-    <About />
+    <RouterView />
   </main>
 </template>
 

@@ -4,8 +4,8 @@
       <img src="../assets/logo.png" />
     </div>
     <div class="nav-options">
-      <div>Home</div>
-      <div>About</div>
+      <div><RouterLink to="/">Home</RouterLink></div>
+      <div><RouterLink to="/about">About</RouterLink></div>
       <div>Skills</div>
       <div>Projects</div>
       <div>Contact</div>
@@ -38,5 +38,11 @@
 .logo > img:hover {
   border: 1px solid rgb(127, 206, 17);
   cursor: pointer;
+}
+
+a:visited {
+  color: rgb(127, 206, 17);
+  text-decoration: none;
+  color: white;
 }
 </style>

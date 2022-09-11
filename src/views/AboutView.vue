@@ -16,9 +16,8 @@
       the functionality of a
       <a href="https://en.wikipedia.org/wiki/Hack_(video_game)"> hack</a> for
       the game Call of Duty MW3 that was made in
-      <a href="https://en.wikipedia.org/wiki/Lua_(programming_language)"
-        >Lua.</a
-      >
+      <a href="https://en.wikipedia.org/wiki/Lua_(programming_language)">Lua</a
+      >.
       <br />
       <br />
       >_ I have interest on most of the technology areas: from low-level
@@ -36,7 +35,7 @@
 </template>
 
 <script>
-</script>font-weight-bold
+</script>
 
 <style>
 .about {
@@ -53,14 +52,18 @@
   font-size: 2.5vh;
 }
 
-a,
-a:visited {
+p > a {
   font-size: 2.5vh;
   text-decoration: underline;
   color: white;
 }
 
-a:hover {
+p > a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+p > a:hover {
   color: rgb(127, 206, 17);
 }
 </style>
